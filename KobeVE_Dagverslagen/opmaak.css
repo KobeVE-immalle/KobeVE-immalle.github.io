@@ -16,3 +16,21 @@ a:hover{
 a:link{
     color: white;
 }
+
+#Contact{
+    background-color: gray;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 0px;
+    width: 15%;
+}
+iframe{
+    float: right;
+    
+}
+
+footer{
+    margin-top: 30%;
+    margin-right: 79%;
+}
