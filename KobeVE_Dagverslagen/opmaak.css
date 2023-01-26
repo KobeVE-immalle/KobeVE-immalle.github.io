@@ -1,16 +1,25 @@
-body{
-    
-    margin: auto;
+#Tekst{
+    float:left;
+width: 60%;
 }
-nav{
+#Foto{
+float: right;
+max-width: 20%;
+padding-right: 145px;
+padding-top: 170px;
+}
+footer{
+    clear:both;  
     background-color: rgb(0,152,209);
     color: white;
-    font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 35px;
-    text-align: center;
-    
-    }
-    
+    height: 30px;
+    text-align: right;
+}
+#Footer
+{
+    color: white;
+}
+/*Navigation*/
 li{
     display: inline;
     padding: 10px;
@@ -18,37 +27,63 @@ li{
     font-weight: 400;
     color: White;
 }
+#contact:hover{
+    font-weight: 600;
+}
+nav{
+    background-color: rgb(0,152,209);
+    color: white;
+    font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 35px;
+    text-align: center;    
+}
 a{
-    text-decoration: none;
+    text-decoration: underline;
     color: #ffffff;
 }
 a:hover{
     font-weight: 600;
     text-underline-offset: 3px;
 }
-#contact{
-    text-decoration: none;
-    color: #747474;
-    font-family: "Lato", Sans-serif;
-    font-weight: 400;
+.Midden{
+    width: 80%;
+    margin: 0px auto 0px auto;
 }
-#contact:hover{
-    font-weight: 600;
+
+#Contact{
+    background-color: rgba(199, 198, 198, 0.322);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+    margin-left: 0px;
+    width: 15%;
+    
+
 }
 h1{
-    font-family: "Cera Pro", Sans-serif;
+    font-family:sans-serif;
     font-weight: 900;
     color: #0099d1;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
-
+h2{
+    font-family:sans-serif;
+    font-weight: 600;
+    color: #0099d1;
+    width: fit-content;   
+}
+iframe{
+    float: right;
+    
+}
 p{
     font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 400;
     color: black;
 }
-header{
+img{
     
+    width: 450px;
+    height: 450px;
 }
